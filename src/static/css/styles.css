@@ -10,7 +10,7 @@ body {
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
+    box-shadow: 0 0 4em #ccc;
     transition: all .2s ease-in-out;
 }
 
@@ -40,4 +40,21 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+.h1{
+    display: inline-block;
+    background-color: black;
+    opacity: 0.7;
+    padding-left 50%;
+    text-decoration: underline;
+}
+
+.deleteAll{
+    color: dodgerblue;
+    border-radius: 5px;
+}
+
+.banner{
+    background-image: linear-gradient(to right top, #786bd1, #7778d7, #7783dc, #798fe1, #7d9ae4, #6da7ee, #5db4f6, #4ec1fa, #00d2fc, #00e2f2, #00f0df, #5ffbc4);
 }
