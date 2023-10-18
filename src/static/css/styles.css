@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to right top, #786bd1, #438ae8, #00a5f0, #00bced, #34d0e4, #4fdae2, #67e3e1, #7eecdf, #78f0e3, #71f4e8, #68f7ec, #5ffbf1);
     margin-top: 50px;
     font-family: 'Lato';
 }
@@ -15,11 +15,15 @@ body {
 }
 
 .item:hover {
-    box-shadow: 0 0 1em #aaa;
+    box-shadow: 0 0 1em black;
+    opacity: 0.85;
+    color: gray;
+    scale: 1.2;
 }
 
 .item.completed {
     text-decoration: line-through;
+    color: aaa;
 }
 
 .toggles {
